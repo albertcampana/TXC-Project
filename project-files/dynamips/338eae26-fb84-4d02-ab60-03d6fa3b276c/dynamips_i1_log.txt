@@ -1,0 +1,10 @@
+May 19 14:56:13.777 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+May 19 14:56:13.777 HYPERVISOR: Started on IP = localhost, TCP port = 53601.
+May 19 14:56:13.786 HYPERVISOR: exec_cmd: hypervisor version 
+May 19 14:56:13.786 HYPERVISOR: exec_cmd: hypervisor working_dir /home/sblufff/GNS3/projects/TXC_proyecto/project-files/dynamips 
+May 19 14:56:13.786 GENERAL: working_dir=/home/sblufff/GNS3/projects/TXC_proyecto/project-files/dynamips
+May 19 14:56:13.787 HYPERVISOR: exec_cmd: ethsw create Switch1 
+May 19 14:56:50.629 HYPERVISOR: exec_cmd: ethsw delete Switch1 
+May 19 14:56:50.629 HYPERVISOR: exec_cmd: hypervisor stop 
+May 19 14:56:50.825 HYPERVISOR: Stopped.
+May 19 14:56:50.825 GENERAL: reset done.
