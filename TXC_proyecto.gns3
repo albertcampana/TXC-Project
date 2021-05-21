@@ -265,6 +265,37 @@
                     }
                 ],
                 "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "b4aba16c-1ca3-479e-bc35-f2557e9efced",
+                "nodes": [
+                    {
+                        "adapter_number": 6,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "s6/0",
+                            "x": 33,
+                            "y": 22
+                        },
+                        "node_id": "7120d71f-dd90-4658-9df3-5f4264de4dd3",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 6,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "s6/0",
+                            "x": 33,
+                            "y": 22
+                        },
+                        "node_id": "f2538576-28a0-4086-9ef7-429b083d48fd",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
             }
         ],
         "nodes": [
@@ -333,8 +364,8 @@
                 "symbol": ":/symbols/router.svg",
                 "template_id": "8cfe8ac5-11a7-4a53-a7ff-382f6c38fe91",
                 "width": 66,
-                "x": -356,
-                "y": -30,
+                "x": -355,
+                "y": -29,
                 "z": 1
             },
             {
@@ -471,7 +502,7 @@
                 "symbol": ":/symbols/router.svg",
                 "template_id": "8cfe8ac5-11a7-4a53-a7ff-382f6c38fe91",
                 "width": 66,
-                "x": -148,
+                "x": -149,
                 "y": 123,
                 "z": 1
             },
@@ -532,7 +563,7 @@
                     "slot3": "PA-FE-TX",
                     "slot4": "PA-FE-TX",
                     "slot5": "PA-FE-TX",
-                    "slot6": null,
+                    "slot6": "PA-4T+",
                     "sparsemem": true,
                     "system_id": "FTX0945W0MY",
                     "usage": ""
@@ -540,7 +571,7 @@
                 "symbol": ":/symbols/router.svg",
                 "template_id": "8cfe8ac5-11a7-4a53-a7ff-382f6c38fe91",
                 "width": 66,
-                "x": 135,
+                "x": 134,
                 "y": -148,
                 "z": 1
             },
@@ -601,7 +632,7 @@
                     "slot3": "PA-FE-TX",
                     "slot4": "PA-FE-TX",
                     "slot5": "PA-FE-TX",
-                    "slot6": null,
+                    "slot6": "PA-4T+",
                     "sparsemem": true,
                     "system_id": "FTX0945W0MY",
                     "usage": ""
@@ -620,7 +651,7 @@
                 "console_type": "telnet",
                 "custom_adapters": [],
                 "first_port_name": null,
-                "height": 45,
+                "height": 59,
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
@@ -675,9 +706,9 @@
                     "system_id": "FTX0945W0MY",
                     "usage": ""
                 },
-                "symbol": ":/symbols/router.svg",
+                "symbol": ":/symbols/classic/computer.svg",
                 "template_id": "8cfe8ac5-11a7-4a53-a7ff-382f6c38fe91",
-                "width": 66,
+                "width": 65,
                 "x": -537,
                 "y": -32,
                 "z": 1
@@ -689,7 +720,7 @@
                 "console_type": "telnet",
                 "custom_adapters": [],
                 "first_port_name": null,
-                "height": 45,
+                "height": 59,
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
@@ -744,9 +775,9 @@
                     "system_id": "FTX0945W0MY",
                     "usage": ""
                 },
-                "symbol": ":/symbols/router.svg",
+                "symbol": ":/symbols/classic/computer.svg",
                 "template_id": "8cfe8ac5-11a7-4a53-a7ff-382f6c38fe91",
-                "width": 66,
+                "width": 65,
                 "x": 343,
                 "y": -144,
                 "z": 1
@@ -758,7 +789,7 @@
                 "console_type": "telnet",
                 "custom_adapters": [],
                 "first_port_name": null,
-                "height": 45,
+                "height": 59,
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
@@ -813,10 +844,10 @@
                     "system_id": "FTX0945W0MY",
                     "usage": ""
                 },
-                "symbol": ":/symbols/router.svg",
+                "symbol": ":/symbols/classic/computer.svg",
                 "template_id": "8cfe8ac5-11a7-4a53-a7ff-382f6c38fe91",
-                "width": 66,
-                "x": 340,
+                "width": 65,
+                "x": 338,
                 "y": 141,
                 "z": 1
             }
